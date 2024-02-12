@@ -13,7 +13,6 @@ const firebaseConfig = {
     appId: process.env.APP_ID
 };
 
-
 const firebaseApp = initializeApp(firebaseConfig);
 
 createApp(App).use(VueFire, {firebaseApp}).mount('#app')
