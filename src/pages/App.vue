@@ -21,4 +21,8 @@ router.beforeEach(async (to) => {
   </main>
 </template>
 
-<style scoped></style>
+<style>
+  body {
+    margin: 0;
+  }
+</style>
