@@ -24,5 +24,6 @@ router.beforeEach(async (to) => {
 <style>
   body {
     margin: 0;
+    font-family: "Comfortaa", sans-serif;
   }
 </style>
